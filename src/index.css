@@ -1,0 +1,101 @@
+/* Smooth dark gradient background */
+body {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a, #111);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #eee;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Main container */
+.container {
+  max-width: 450px;
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+}
+
+/* Heading */
+.heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  color: #00eaff;
+  text-shadow: 0 0 20px rgba(0, 234, 255, 0.5);
+}
+
+/* Card with neon border */
+.card {
+  background: #151515;
+  padding: 25px;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 0 0 25px rgba(0, 234, 255, 0.2);
+  border: 2px solid rgba(0, 234, 255, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+/* Question text */
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+/* Options */
+.option {
+  display: block;
+  background: #1e1e1e;
+  padding: 12px 14px;
+  margin: 10px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px;
+  border: 1px solid transparent;
+  transition: 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.option:hover {
+  border-color: #00eaff;
+  background: #252525;
+}
+
+/* Input radio hidden */
+.option input {
+  margin-right: 10px;
+}
+
+/* Button */
+.btn {
+  margin-top: 18px;
+  padding: 12px 35px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background: #00eaff;
+  color: #000;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-weight: bold;
+  box-shadow: 0 0 12px rgba(0, 234, 255, 0.4);
+}
+
+.btn:hover {
+  background: #00b8cc;
+}
+
+/* Disabled button */
+.btn:disabled {
+  background-color: #35565c;
+  cursor: not-allowed;
+}
+
+/* Score text */
+.score {
+  font-size: 28px;
+  margin-top: 20px;
+  color: #00ffb3;
+  text-shadow: 0 0 15px rgba(0, 255, 179, 0.4);
+}
